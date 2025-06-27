@@ -125,7 +125,7 @@ const Portfolio = () => {
   };
 
   // Handle keyboard navigation
-  const handleKeyPress = (e) => {
+  const handleKeyPress = React.useCallback((e) => {
     if (!selectedArtwork) return;
     
     if (e.key === 'Escape') {
@@ -135,7 +135,7 @@ const Portfolio = () => {
     } else if (e.key === 'ArrowRight') {
       nextPage();
     }
-  };
+  }, [selectedArtwork, currentPage]);
 
   // Add keyboard listener when modal is open
   React.useEffect(() => {
@@ -143,7 +143,7 @@ const Portfolio = () => {
       document.addEventListener('keydown', handleKeyPress);
       return () => document.removeEventListener('keydown', handleKeyPress);
     }
-  }, [selectedArtwork, currentPage]);
+  }, [selectedArtwork, handleKeyPress]);
 
   return (
     <div className="portfolio-container">

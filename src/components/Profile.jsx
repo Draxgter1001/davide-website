@@ -10,7 +10,7 @@ const Profile = () => {
     company: "Free-lancing",
     location: "Bologna, Italy",
     projects: 25, // You can update this number as you add projects
-    profileImage: "/api/placeholder/240/240" // Placeholder image
+    profileImage: "profile-image/Davide.jpg" // Placeholder image
   };
 
   // Social media links - easily extensible
