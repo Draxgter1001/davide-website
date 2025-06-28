@@ -11,88 +11,121 @@ const Portfolio = () => {
     {
       id: 1,
       title: "Spider-Man Comic Page",
-      category: "Comics",
-      thumbnail: "testing-images/Spiderman-Davide.jpg",
+      category: "Comic Page",
+      thumbnail: "spiderman-commissione/3colori.jpg",
       pages: [
-        "testing-images/Spiderman-Davide.jpg",
-        "testing-images/Wolverine-Davide.jpg",
-        "/api/placeholder/800/1000"
+        "spiderman-commissione/1bozza.jpg",
+        "spiderman-commissione/wip.jfif",
+        "spiderman-commissione/2inchiostri.jpg",
+        "spiderman-commissione/3colori.jpg",
       ],
-      description: "Amazing Spider-Man comic book illustration featuring web-slinging action through New York City."
     },
     {
       id: 2,
-      title: "BOOM! Studios Logo",
-      category: "Branding",
-      thumbnail: "/api/placeholder/400/300", 
+      title: "Demon Slayer",
+      category: "Commission",
+      thumbnail: "demon-slayer-commissione/3 demon slayer colori.jpg", 
       pages: [
-        "/api/placeholder/800/600"
+        "demon-slayer-commissione/2 demon slayer commissione.jpg",
+        "demon-slayer-commissione/3 demon slayer colori.jpg"
       ],
-      description: "Professional logo design for BOOM! Studios entertainment company."
     },
     {
       id: 3,
-      title: "Power Rangers Team",
-      category: "Character Design",
-      thumbnail: "/api/placeholder/500/400",
+      title: "The Amazing Spiderman",
+      category: "Comic",
+      thumbnail: "the-amazing-spiderman/3 spider-man.jpg",
       pages: [
-        "/api/placeholder/1000/800",
-        "/api/placeholder/1000/800"
+        "the-amazing-spiderman/1 spider-man.jpg",
+        "the-amazing-spiderman/2 spider-man.jpg",
+        "the-amazing-spiderman/3 spider-man.jpg",
+        "the-amazing-spiderman/4 spider-man.jpg",
+        "the-amazing-spiderman/5 spider-man.jpg"
+
       ],
-      description: "Dynamic team illustration featuring the iconic Power Rangers in action poses."
     },
     {
       id: 4,
-      title: "Red Ranger Portrait",
+      title: "Wolverine",
       category: "Character Design", 
-      thumbnail: "/api/placeholder/400/400",
+      thumbnail: "wolverine/6 wolverine colorato.jpg",
       pages: [
-        "/api/placeholder/800/800"
+        "wolverine/5 wolwerine ink.jpg",
+        "wolverine/6 wolverine colorato.jpg",
       ],
-      description: "Detailed character portrait of the Red Power Ranger with dynamic lighting."
     },
     {
       id: 5,
-      title: "Joker Character Study",
-      category: "Character Design",
-      thumbnail: "/api/placeholder/400/500",
+      title: "Wolverine vs Deadpool",
+      category: "Comic Scene",
+      thumbnail: "deadpool-vs-wolverine/8 deadpool vs wolverine colorata.jpg",
       pages: [
-        "/api/placeholder/800/1000"
+        "deadpool-vs-wolverine/7 deadpool vs wolwerine ink.jpg",
+        "deadpool-vs-wolverine/8 deadpool vs wolverine colorata.jpg"
       ],
-      description: "Dark and twisted character interpretation of the iconic Batman villain."
     },
     {
       id: 6,
-      title: "Fantasy Character",
-      category: "Concept Art",
-      thumbnail: "/api/placeholder/400/500",
+      title: "Tavole Bugs",
+      category: "Comic",
+      thumbnail: "tavole-bugs/TAV.4.jpg",
       pages: [
-        "/api/placeholder/800/1000",
-        "/api/placeholder/800/1000"
+        "story-board-samuel/1.jpg",
+        "story-board-samuel/2.jpg",
+        "story-board-samuel/3.jpg",
+        "story-board-samuel/4.jpg",
+        "tavole-bugs/TAV.1.jpg",
+        "tavole-bugs/TAV.2.jpg",
+        "tavole-bugs/TAV.3.jpg",
+        "tavole-bugs/TAV.4.jpg"
       ],
-      description: "Original fantasy character design with detailed armor and weapon concepts."
     },
     {
       id: 7,
-      title: "Thor Winter Battle",
-      category: "Comics",
-      thumbnail: "/api/placeholder/600/400",
+      title: "Spider Gwen",
+      category: "Comic",
+      thumbnail: "spider-gwen/5.jpg",
       pages: [
-        "/api/placeholder/1200/800"
+        "spider-gwen/1.jpg",
+        "spider-gwen/2.jpg",
+        "spider-gwen/3.jpg",
+        "spider-gwen/4.jpg",
+        "spider-gwen/5.jpg"
       ],
-      description: "Epic battle scene featuring Thor in a frozen wasteland with dramatic action."
     },
     {
       id: 8,
-      title: "Winter Warriors Sketch",
-      category: "Sketches",
-      thumbnail: "/api/placeholder/600/400",
+      title: "Tigre Character Design",
+      category: "Character Design",
+      thumbnail: "tigre-character/11 tigre character design.jpg",
       pages: [
-        "/api/placeholder/1200/800",
-        "/api/placeholder/1200/800",
-        "/api/placeholder/1200/800"
+        "tigre-character/11 tigre character design.jpg"
       ],
-      description: "Concept sketches showing warriors battling in harsh winter conditions."
+    },
+    {
+      id: 9,
+      title: "Esploratori",
+      category: "Comic",
+      thumbnail: "esploratori/1 color.jpg",
+      pages: [
+        "esploratori/1 color.jpg",
+        "esploratori/2 color.jpg",
+        "esploratori/3 color.jpg",
+      ],
+    },
+    {
+      id: 10,
+      title: "Francese",
+      category: "Comic",
+      thumbnail: "portfolio-francese/6.png",
+      pages: [
+        "portfolio-francese/1.png",
+        "portfolio-francese/2.png",
+        "portfolio-francese/3.png",
+        "portfolio-francese/4.png",
+        "portfolio-francese/5.png",
+        "portfolio-francese/6.png"
+      ],
     }
   ];
 
@@ -149,9 +182,9 @@ const Portfolio = () => {
     <div className="portfolio-container">
       {/* Portfolio Header */}
       <div className="portfolio-header">
-        <h2 className="portfolio-title">My Artwork</h2>
+        <h2 className="portfolio-title">Portofolio</h2>
         <p className="portfolio-subtitle">
-          A collection of comic illustrations, character designs, and concept art
+          A collection of comic illustrations, character designs, and concept art!
         </p>
       </div>
 
@@ -231,7 +264,6 @@ const Portfolio = () => {
 
             {/* Modal Footer */}
             <div className="modal-footer">
-              <p className="artwork-description">{selectedArtwork.description}</p>
               {selectedArtwork.pages.length > 1 && (
                 <div className="page-indicator">
                   <span className="page-info">
