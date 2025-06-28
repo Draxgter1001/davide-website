@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/davide-website/static/css/main.9f3484e8.css",
+    "main.js": "/davide-website/static/js/main.c8aeeee3.js",
+    "static/js/453.b30504a2.chunk.js": "/davide-website/static/js/453.b30504a2.chunk.js",
+    "index.html": "/davide-website/index.html",
+    "main.9f3484e8.css.map": "/davide-website/static/css/main.9f3484e8.css.map",
+    "main.c8aeeee3.js.map": "/davide-website/static/js/main.c8aeeee3.js.map",
+    "453.b30504a2.chunk.js.map": "/davide-website/static/js/453.b30504a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f3484e8.css",
+    "static/js/main.c8aeeee3.js"
+  ]
+}
